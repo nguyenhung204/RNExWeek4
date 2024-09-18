@@ -1,5 +1,6 @@
 import PasswordGenerator from "@/components/PasswordGenerator";
 import { SafeAreaView } from "react-native-safe-area-context";
+import Payment from "@/components/Payment";
 
 
 export default function Index() {
@@ -9,6 +10,7 @@ export default function Index() {
       backgroundColor : "#3B3B98"  
     }}>
       <PasswordGenerator />
+      {/* <Payment/> */}
     </SafeAreaView>
   );
 }
